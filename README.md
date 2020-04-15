@@ -7,9 +7,6 @@
 | --- | :---: | :---: | :---:  |
 | Biomedical Translation | ?| ? | ? |
 
-| Corpus                 | en-zh | en-de | en |
-| Biomedical Translation |       |       |    |
-
 
 
 
