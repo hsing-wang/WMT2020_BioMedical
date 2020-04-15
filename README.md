@@ -18,10 +18,12 @@
 | 11  | Out-of-domain monolingual corpora   | n/a | n/a | n/a |
 | 12  | Out-of-domain parallel corpora      | n/a | n/a | ? |
 
-
+## Data Preprocessing
  
 
-
+## Baseline
+### Model:    Transformer
+### Toolkit:  Fairseq
 
 
 
