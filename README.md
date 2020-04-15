@@ -5,8 +5,12 @@
 
 | No. | Corpus | File| En-Zh  | En-De | En |
 | --- | :---: | :---: | :---: | :---: | :---:  |
-| 1   | Biomedical Translation             |                 | -   | -   | - |
-|     | Biomedical Translation             | wmt19biomedical | -   | -   | - |
+| 1   | Biomedical Translation             |                               | -   | -   | - |
+|     |                                    | wmt19biomedical/training      | -   | -   | - |
+|     |                                    | wmt19biomedical/test/Medline  | -   | -   | - |
+|     |                                    | wmt18biomedical/Medline       | -   | -   | - |
+
+Medline\deen
 | 2   | UFAL Medical Corpus                |                 | n/a | ?   | ? |
 | 3   | HimL test sets                     |                 | n/a | ?   | ? |
 | 4   | Khresmoi development data          |                 | n/a | ?   | ? |
