@@ -5,19 +5,18 @@
 
 | No. | Corpus | En-Zh  | En-De | En |
 | --- | :---: | :---: | :---: | :---:  |
-| 1   | Biomedical Translation     | ? | ? | ? |
-| 2   | UFAL Medical Corpus        | ? | ? | ? |
-| 3   | HimL test sets             | ? | ? | ? |
-| 4   | Khresmoi development data  | ? | ? | ? |
-| 5   | UNCorpus                   | ? | ? | ? |
-| 6   | Biomedical Translation | ? | ? | ? |
-| 7   | Biomedical Translation | ? | ? | ? |
-| 8   | Biomedical Translation | ? | ? | ? |
-| 9   | Biomedical Translation | ? | ? | ? |
-| 10  | Biomedical Translation | ? | ? | ? |
-| 11  | Biomedical Translation | ? | ? | ? |
-| 12  | Biomedical Translation | ? | ? | ? |
-| 13  | Biomedical Translation | ? | ? | ? |
+| 1   | Biomedical Translation              | ? | ? | ? |
+| 2   | UFAL Medical Corpus                 | ? | ? | ? |
+| 3   | HimL test sets                      | ? | ? | ? |
+| 4   | Khresmoi development data           | ? | ? | ? |
+| 5   | UN Corpus                           | ? | ? | ? |
+| 6   | MeSpEn corpus                       | ? | ? | ? |
+| 7   | Scielo full text corpus             | \cdot | \cdot | \cdot |
+| 8   | Brazilian Thesis and Dissertations  | ? | ? | ? |
+| 9   |  ICD-10 codes translation train/dev datasets | ? | ? | ? |
+| 10  | medical domain monolingual corpora  | ? | ? | ? |
+| 11  | Out-of-domain monolingual corpora   | ? | ? | ? |
+| 12  | Out-of-domain parallel corpora      | ? | ? | ? |
  
 
 
