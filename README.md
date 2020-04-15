@@ -11,7 +11,7 @@
 | 4   | Khresmoi development data           | ? | ? | ? |
 | 5   | UN Corpus                           | ? | ? | ? |
 | 6   | MeSpEn corpus                       | ? | ? | ? |
-| 7   | Scielo full text corpus             | \cdot | \cdot | \cdot |
+| 7   | Scielo full text corpus             | $\cdot$ | \cdot | \cdot |
 | 8   | Brazilian Thesis and Dissertations  | ? | ? | ? |
 | 9   |  ICD-10 codes translation train/dev datasets | ? | ? | ? |
 | 10  | medical domain monolingual corpora  | ? | ? | ? |
