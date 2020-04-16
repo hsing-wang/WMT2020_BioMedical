@@ -5,7 +5,12 @@
 
 | No. | Corpus                             | File                          | En-Zh  | En-De | En |
 | --- | :---:                              | :---:                         | :---: | :---:  | :---:  |
-| 1   | Biomedical Translation             | wmt19biomedical/training      | -     | 40398  | - |
+| 1   | Biomedical Translation             | wmt19biomedical/training/de-en| n/a   | 40398  |  40398 |
+|     |                                    | wmt19biomedical/training/fr-en| n/a   |  n/a   |  75049 |
+|     |                                    | wmt19biomedical/training/es-en| n/a   |  n/a   | 100257 |
+|     |                                    | wmt19biomedical/training/pt-en| n/a   |  n/a   |  49918 |
+|     |                                    | wmt20biomedical/training/it-en| n/a   |  n/a   |  14756 |
+|     |                                    | wmt20biomedical/training/ru-en| n/a   |  n/a   |  46782 |
 |     |                                    | wmt19biomedical/test/Medline  | -     | -      | - |
 |     |                                    | wmt18biomedical/test/Medline  | -     | -      | - |
 | 2   | UFAL Medical Corpus                | shuffled.de-en                | 37814533 | n/a | ? |
