@@ -5,6 +5,7 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 
 ## Data and Pre-trained models 
 
+### Data provided by organizers
 | No. | Corpus                             | File                          | En-Zh  | En-De | En |
 | --- | :---:                              | :---:                         | :---: | :---:  | :---:  |
 | 1   | Biomedical Translation             | wmt18/Medline/training/es-en | n/a    | n/a    | 287811 |
@@ -29,6 +30,7 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | himl-test-2017/cochrane       | n/a  | 467      | n/a | 
 
 
+### Model hyperparameters
 |                | Deep Transformer   | Hybrid Transformer  | Big Transformer       | Large Transformer  |
 | ---            | :---:   | :---:       | :---:     | :---:  | 
 |Encoder Layer   |   40    |    40       |    6      |  20    |
