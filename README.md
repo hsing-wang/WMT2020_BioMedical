@@ -1,6 +1,8 @@
 # WMT2020_BioMedical_MT 
 	http://www.statmt.org/wmt20/biomedical-translation-task.html
 
+The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translation in four language directions: German<->English, Chinese<->English. Our systems in German->Enlgish and English-> German were ranked 1st and 3rd respectively according to the [automatic evaluation](https://drive.google.com/file/d/116eQudN5rNx9-VYru5lFy0lT1IMqp7kP/view).
+
 ## Data
 
 | No. | Corpus                             | File                          | En-Zh  | En-De | En |
