@@ -27,14 +27,7 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | himl-test-2015/himl           | n/a  | 3892     | n/a | 
 |     |                                    | himl-test-2015/nhs24          | n/a  | 2459     | n/a | 
 |     |                                    | himl-test-2017/cochrane       | n/a  | 467      | n/a | 
-| 5   | UN Corpus                          | UN-v1.0.en-zh                 | 15886041| n/a | n/a |
-| 6   | MeSpEn corpus                      |                 | n/a | n/a | ? |
-| 7   | Scielo full text corpus            |                 | n/a | n/a | ? |
-| 8   | Brazilian Thesis and Dissertations |                 | n/a | n/a | ? |
-| 9   | ICD-10 codes translation           |                 | n/a | n/a | 25900 |
-| 10  | medical domain monolingual corpora |                 | n/a | n/a | n/a |
-| 11  | Out-of-domain monolingual corpora  |                 | n/a | n/a | n/a |
-| 12  | Out-of-domain parallel corpora     |                 | n/a | n/a | ? |
+
 
 ## Data Preprocessing
  
