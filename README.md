@@ -3,7 +3,7 @@
 
 The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translation in four language directions: German<->English, Chinese<->English. Our systems in German->Enlgish and English-> German were ranked 1st and 3rd respectively according to the [automatic evaluation](https://drive.google.com/file/d/116eQudN5rNx9-VYru5lFy0lT1IMqp7kP/view).
 
-## Data
+## Data and Pre-trained models 
 
 | No. | Corpus                             | File                          | En-Zh  | En-De | En |
 | --- | :---:                              | :---:                         | :---: | :---:  | :---:  |
@@ -18,8 +18,8 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | wmt19/Medline/test/Medline  | -     | -      | -      |
 |     |                                    | wmt20/Medline/training/it-en| n/a   |  n/a   |  14756 |
 |     |                                    | wmt20/Medline/training/ru-en| n/a   |  n/a   |  46782 |
-|     |                                    | rebec                                 | n/a   |  n/a   |  ?     |
-|     |                                    | scielo                                | n/a   |  n/a   |  ?     |
+|     |                                    | rebec                       | n/a   |  n/a   |  ?     |
+|     |                                    | scielo                      | n/a   |  n/a   |  ?     |
 | 2   | UFAL Medical Corpus                | shuffled.de-en                | n/a  | 37814533 | ? |
 | 3   | HimL test sets                     | khresmoi-summary-dev          | n/a  | 500      | n/a |
 |     |                                    | khresmoi-summary-test         | n/a  | 1000     | n/a |
@@ -28,13 +28,23 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | himl-test-2015/nhs24          | n/a  | 2459     | n/a | 
 |     |                                    | himl-test-2017/cochrane       | n/a  | 467      | n/a | 
 
+ 
+|         | Deep    | HyBrid      | Big       | Large  |
+| ---     | :---:   | :---:       | :---:     | :---:  | 
+|EncLayer |   40    |    40       | 6         | 20     |
+|DecLayer |         |             |           |        |
+|AttHeads |         |             |           |        |
+|EmbSize  |         |             |           |        |
+|FFNSize  |         |             |           |        |
 
-## Data Preprocessing
+
+## Training Details
+### Data Preprocessing
  
 
-## Baseline
-### Model:    Transformer
-### Toolkit:  Fairseq
+### Baseline
+#### Model:    Transformer
+#### Toolkit:  Fairseq
 
 
 
