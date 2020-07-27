@@ -28,14 +28,14 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | himl-test-2015/nhs24          | n/a  | 2459     | n/a | 
 |     |                                    | himl-test-2017/cochrane       | n/a  | 467      | n/a | 
 
- 
+
 |                | Deep Transformer   | Hybrid Transformer  | Big Transformer       | Large Transformer  |
 | ---            | :---:   | :---:       | :---:     | :---:  | 
-|Encoder Layer   |   40    |    40       | 6         | 20     |
-|Decoder Layer   |         |             |           |        |
-|Attention Heads |         |             |           |        |
-|Embedding Size  |         |             |           |        |
-|FFN Size        |         |             |           |        |
+|Encoder Layer   |   40    |    40       |    6      |  20    |
+|Decoder Layer   |   6     |    6        |    6      |  6     |
+|Attention Heads |   8     |    8        |    16     |  16    |
+|Embedding Size  |   512   |    512      |    1024   |  1024  |
+|FFN Size        |   2048  |    2048     |    4096   |  4096  |
 
 
 ## Training Details
