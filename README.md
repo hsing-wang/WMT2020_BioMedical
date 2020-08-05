@@ -39,9 +39,27 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |Embedding Size  |   512   |    512      |    1024   |  1024  |
 |FFN Size        |   2048  |    2048     |    4096   |  4096  |
 
+### Pre-trained models 
+### Model hyperparameters
+|                | Deep Transformer   | Hybrid Transformer  | Big Transformer       | Large Transformer  |
+| ---            | :---:   | :---:       | :---:     | :---:  | 
+|De->En          |   [38.85]()    |    [38.85]()       |    [38.85]()     |  [38.85]()    |
+|En->De          |   [38.85]()    |    [38.85]()       |    [38.85]()      |  [38.85]()   |
+
+
 
 ## Training Details
 ### Data Preprocessing
+[mosesdecoder-master/scripts/tokenizer](https://github.com/moses-smt/mosesdecoder/tree/master/scripts/tokenizer)
+#Step1. normalize-punctuation
+./mosesdecoder-master/scripts/tokenizer/normalize-punctuation.perl -l language/en_or_de < data.de > data.de.norm
+
+#Step2. remove-non-printing-char
+./mosesdecoder-master/scripts/tokenizer/remove-non-printing-char.perl < data.de.norm > data.de.norm.remv
+
+#Step3. tokenize
+./mosesdecoder-master/scripts/tokenizer/tokenizer.perl -l language/en_or_de -threads 10 < data.de.norm.remv > data.de.norm.remv.tok
+
  
 
 ### Baseline
