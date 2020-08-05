@@ -40,13 +40,13 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |FFN Size        |   2048  |    2048     |    4096   |  4096  |
 
 ### Pre-trained models 
-### Model hyperparameters
 |                | Deep Transformer   | Hybrid Transformer  | Big Transformer       | Large Transformer  |
 | ---            | :---:   | :---:       | :---:     | :---:  | 
-|De->En          |   [38.85]()    |    [38.85]()       |    [38.85]()     |  [38.85]()    |
-|En->De          |   [38.85]()    |    [38.85]()       |    [38.85]()      |  [38.85]()   |
+|De->En          |   [download]()    |    [download]()       |    [download]()      |  [download]()    |
+|En->De          |   [download]()    |    [download]()       |    [download]()      |  [download]()   |
 
-
+### Synthetic Chinese-English bilingual data
+[Chinese-English Biomedical bilingual data]()
 
 ## Training Details
 ### Data Preprocessing
@@ -60,7 +60,6 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 #Step3. tokenize
 ./mosesdecoder-master/scripts/tokenizer/tokenizer.perl -l language/en_or_de -threads 10 < data.de.norm.remv > data.de.norm.remv.tok
 
- 
 
 ### Baseline
 #### Model:    Transformer
