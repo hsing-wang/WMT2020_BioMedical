@@ -50,7 +50,8 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 
 ## Training Details
 ### Data Preprocessing
-[mosesdecoder-master/scripts/tokenizer](https://github.com/moses-smt/mosesdecoder/tree/master/scripts/tokenizer)
+[Moses scripts](https://github.com/moses-smt/mosesdecoder/tree/master/scripts/tokenizer)
+
 #Step1. normalize-punctuation
 ./mosesdecoder-master/scripts/tokenizer/normalize-punctuation.perl -l language/en_or_de < data.de > data.de.norm
 
