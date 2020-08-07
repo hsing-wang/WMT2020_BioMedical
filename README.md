@@ -53,18 +53,16 @@ BPE Model: [De-En BPE models](https://drive.google.com/file/d/1MM7U5bbSp1HW1iIi7
 ### Data Preprocessing
 [Moses scripts](https://github.com/moses-smt/mosesdecoder/tree/master/scripts/tokenizer)
 
-lang: en/Enlgish de/German
+$lang=en(de)
 
 #Step1. normalize-punctuation
-./mosesdecoder-master/scripts/tokenizer/normalize-punctuation.perl -l lang < data.de > data.lang.norm
+./mosesdecoder-master/scripts/tokenizer/normalize-punctuation.perl -l $lang < data.$lang > data.$lang.norm
 
 #Step2. remove-non-printing-char
-./mosesdecoder-master/scripts/tokenizer/remove-non-printing-char.perl < data.lang.norm > data.lang.norm.remv
+./mosesdecoder-master/scripts/tokenizer/remove-non-printing-char.perl < data.$lang.norm > data.$lang.norm.remv
 
 #Step3. tokenize
-./mosesdecoder-master/scripts/tokenizer/tokenizer.perl -l lang -threads 10 < data.lang.norm.remv > data.lang.norm.remv.tok
-
-#Step4. 
+./mosesdecoder-master/scripts/tokenizer/tokenizer.perl -l $lang -threads 10 < data.$lang.norm.remv > data.$lang.norm.remv.tok
 
 ### Baseline
 #### Model:    Transformer
