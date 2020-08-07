@@ -42,7 +42,7 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 ### Pre-trained models 
 |                | Deep Transformer   | Hybrid Transformer  | Big Transformer       | Large Transformer  |
 | ---            | :---:   | :---:       | :---:     | :---:  | 
-|De->En          |   [download]()    |    [download]()       |    [download]()      |  [download]()    |
+|De->En          |   [download](https://drive.google.com/file/d/1Fe0tIBbsdutUVZS9QHJWNWB29ZxpaapN/view?usp=sharing)    |    [download]()       |    [download]()      |  [download]()    |
 |En->De          |   [download]()    |    [download]()       |    [download]()      |  [download]()   |
 
 ### Synthetic Chinese-English bilingual data
