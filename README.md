@@ -43,6 +43,9 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |De->En          |   [download](https://drive.google.com/file/d/1Fe0tIBbsdutUVZS9QHJWNWB29ZxpaapN/view?usp=sharing)    |    [download](https://drive.google.com/file/d/1g7HYSenbEeoeN3xDfm1cmSCF-TLJPl_X/view?usp=sharing)       |    [download](https://drive.google.com/file/d/1W7v7NI0a7QCwxLg7BgqRunDsPVW2sN4H/view?usp=sharing)      |  [download](https://drive.google.com/file/d/1sqCNoa6srntduEeUwg5qo5auZKCvfElK/view?usp=sharing)    |
 |En->De          |   [download]()    |    [download]()       |    [download]()      |  [download]()   |
 
+BPE Model: [De-En BPE models](https://drive.google.com/file/d/1MM7U5bbSp1HW1iIi7WXqTmRcVZtgNGvC/view?usp=sharing)
+
+
 ### Synthetic Chinese-English bilingual data
 [Chinese-English Biomedical bilingual data]()
 
