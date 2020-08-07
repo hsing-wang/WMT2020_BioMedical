@@ -19,9 +19,7 @@ The Tencent AI Lab participated in the WMT20 Shared Task on Biomedical Translati
 |     |                                    | wmt19/Medline/test/Medline  | -     | -      | -      |
 |     |                                    | wmt20/Medline/training/it-en| n/a   |  n/a   |  14756 |
 |     |                                    | wmt20/Medline/training/ru-en| n/a   |  n/a   |  46782 |
-|     |                                    | rebec                       | n/a   |  n/a   |  ?     |
-|     |                                    | scielo                      | n/a   |  n/a   |  ?     |
-| 2   | UFAL Medical Corpus                | shuffled.de-en                | n/a  | 37814533 | ? |
+| 2   | UFAL Medical Corpus                | shuffled.de-en                | n/a  | 37814533 | n/a |
 | 3   | HimL test sets                     | khresmoi-summary-dev          | n/a  | 500      | n/a |
 |     |                                    | khresmoi-summary-test         | n/a  | 1000     | n/a |
 | 4   | Khresmoi development data          | himl-test-2015/cochrane       | n/a  | 1433     | n/a |
