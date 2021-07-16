@@ -67,10 +67,20 @@ $lang=en(de)
 
 ./mosesdecoder-master/scripts/tokenizer/tokenizer.perl -l $lang -threads 10 < data.$lang.norm.remv > data.$lang.norm.remv.tok
 
-### Baseline
 #### Model:    Transformer
 #### Toolkit:  Fairseq
 
 
+## Citation
+Please kindly cite our paper if you find it helpful:
 
+```ruby
+@inproceedings{wang2020tencent,
+  title={Tencent AI Lab machine translation systems for the WMT20 biomedical translation task},
+  author={Wang, Xing and Tu, Zhaopeng and Wang, Longyue and Shi, Shuming},
+  booktitle={Proceedings of the Fifth Conference on Machine Translation},
+  pages={881--886},
+  year={2020}
+}
+```
 
